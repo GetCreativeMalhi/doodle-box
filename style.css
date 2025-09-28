@@ -27,8 +27,8 @@ button {
     align-items: center;
     align-content: center;
     border: 1px black solid;
-    width: min(90vw, 500px);
-    height: min(90vw, 300px);
+    width: min(90vw, 800px);
+    height: min(90vw, 400px);
     flex-wrap: wrap;
     align-items: center;
     background-color: #f0fff4;
