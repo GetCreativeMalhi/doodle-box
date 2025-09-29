@@ -1,6 +1,11 @@
 const gridContainer = document.querySelector('.gridContainer');
 const gridSizePromptButton = document.querySelector('button');
 let gridSize = 0;
+function getRandomNumber(min, max){
+    const minCeiled = Math.ceil(min);
+    const maxFloored = Math.floor(max);
+    return Math.floor(Math.random()* (maxFloored - minCeiled) + minCeiled);
+}
 gridSizePromptButton.addEventListener('click', () => {
     const removeChild = document.querySelectorAll('.gridContainer div');
     
@@ -19,8 +24,13 @@ gridSizePromptButton.addEventListener('click', () => {
         for (let j = 0; j < gridSize; j++){
             const gridItem = document.createElement('div');
             gridItem.className = 'grid-item';
-            gridItem.addEventListener('mouseenter', () => {
-                gridItem.style.backgroundColor = "#444444";
+            gridItem.addEventListener('mouseenter', (e) => {
+                let redColor = getRandomNumber(1, 255);
+                let greenColor = getRandomNumber(1, 255);
+                let blueColor = getRandomNumber(1, 255);
+                
+                console.log(`rgb(${redColor}, ${greenColor}, ${blueColor})`);
+                gridItem.style.backgroundColor = `rgb(${redColor}, ${greenColor}, ${blueColor})`;
                 // gridItem.style.setProperty('--grid-size', gridSize);
             });
         
