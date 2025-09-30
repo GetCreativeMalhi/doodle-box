@@ -33,7 +33,9 @@ This project demonstrates fundamental JavaScript concepts and basic usage of bro
 
 ## 🎮 How to Play
 
-    1.	Open in your browser.
+    1. Open https://getcreativemalhi.github.io/doodle-box/ in your browser.
+    2. Click "Click to Enter Grid Size" and enter a number between 1 and 100.
+    3. Hover over the grid squares to doodle. Each square darkens with every pass until it turns black after 10 interactions.
 
 ---
 
@@ -41,6 +43,7 @@ This project demonstrates fundamental JavaScript concepts and basic usage of bro
 
 - [The Odin Project: Rock Paper Scissors](https://www.theodinproject.com/lessons/foundations-etch-a-sketch) – Project instructions
 - [W3Schools](https://www.w3schools.com/) – General reference
+- [MDN](https://developer.mozilla.org)
 
 ---
 
