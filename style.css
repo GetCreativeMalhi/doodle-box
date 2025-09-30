@@ -31,7 +31,7 @@ button {
     height: min(90vw, 940px);
     flex-wrap: wrap;
     align-items: center;
-    background-color: #f0fff4;
+    background-color: #b1cdb8;
     margin: 0 auto;
 }
 
@@ -40,6 +40,4 @@ button {
     text-align: center;
     width: 9px;
     height: 9px;
-    /* flex: 0 0 calc(100% / --grid-size);
-    aspect-ratio: 1 / 1;  */
 }
